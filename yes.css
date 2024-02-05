@@ -1,0 +1,26 @@
+body {
+    background-color: #ffccd5;
+    text-align: center;
+
+
+}
+.thankyou {
+    font-family:fantasy;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.iloveyou {
+    font-family: fantasy;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.somuch {
+    font-family: fantasy;
+    padding-top: 50px;
+    font-size: 50px;
+}
+.img-container {
+    border-image:space;
+    image width: 75%;
+    height: 70px;
+}

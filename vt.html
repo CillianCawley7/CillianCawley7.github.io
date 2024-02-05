@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Be My Valentine?</title>
+    <link rel="stylesheet" href="vt.css">
+</head>
+<body>
+    <div>
+        <h1 class = "header-text"> Will you be my valentine?</h1>
+    </div>
+    <div class = "img-container">
+        <img src="vtdog.jpeg" alt="Valentine's Day Dog">
+       
+    </div>
+    <div class = "buttons">
+        <button class ="btn" id = "yesbutton" onclick ="nextpage()">Yes</button>
+        <button class ="btn" id ="nobutton" onmouseover="movebutton()">No</button>
+        <script>
+            function nextpage() {
+                window.location.href = "yes.html";
+            }
+            function movebutton() {
+                var button = document.getElementById('nobutton');
+                var maxX = window.innerWidth - button.offsetWidth;
+                var maxY = window.innerHeight - button.offsetHeight;
+                var newX = Math.random() * maxX;
+                var newY = Math.random() * maxY;
+    button.style.left = newX + 'px';
+    button.style.top = newY + 'px';
+}
+
+        </script>
+    </div>
+</div>
+</body>
+</html>
+
+
